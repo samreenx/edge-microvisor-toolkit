@@ -20,7 +20,7 @@ env:
 jobs:
   image_build:
     name: Image Build
-    runs-on: [microvisor]
+    runs-on: ubuntu-latest
     timeout-minutes: 1440 # extend timeout from default 6 hour to 24 hour 
     environment: production
     outputs:
